@@ -18,7 +18,6 @@ class Rewards(object):
 
 def earnLeavesOnSpend(amt_spent):
     amt_spent_floor = math.floor(amt_spent)
-    print(amt_spent_floor)
     other_amt = 0
 
     if 0.6 <= float(round(amt_spent-amt_spent_floor, 2)) <= 0.9:
